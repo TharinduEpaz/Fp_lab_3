@@ -1,11 +1,12 @@
 object ScalaLab1_Question2{
      def main(args: Array[String]) = {  
 
-        
+        var r = 5
+
+        println(area(r));
+
 
     }
+    def area(r:Int):Double = math.Pi * r * r;
 }
 
-var a = 9;
-        if(a<0) a = -a else a;
-        println(a);
